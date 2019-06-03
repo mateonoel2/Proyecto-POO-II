@@ -4,6 +4,9 @@
 
 #ifndef PROYECTO_POO_II_JUGADOR_H
 #define PROYECTO_POO_II_JUGADOR_H
+#include <string>
+#include <iostream>
+using namespace std;
 
 
 class Jugador {
