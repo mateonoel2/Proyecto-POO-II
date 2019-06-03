@@ -11,8 +11,10 @@ private:
     string nombre;
     int color;
 public:
+    Jugador(string nombre,int color):nombre(nombre),color(color){};
     void jugar(Ficha ficha, int movimientos);
     Ficha* seleccionarFichaEnJuego();
+    ~Jugador();
 
 };
 
