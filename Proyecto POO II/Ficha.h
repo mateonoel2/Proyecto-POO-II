@@ -1,6 +1,4 @@
-//
-// Created by Mateo Noel Rabines on 2019-05-28.
-//
+#include "Casilla.h"
 
 #ifndef PROYECTO_POO_II_FICHA_H
 #define PROYECTO_POO_II_FICHA_H
@@ -15,3 +13,5 @@ public:
 
 
 #endif //PROYECTO_POO_II_FICHA_H
+
+

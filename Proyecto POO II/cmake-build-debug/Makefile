@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/m.noel/Desktop/Proyecto POO II"
+CMAKE_SOURCE_DIR = "/Users/m.noel/Desktop/Proyecto-POO-II/Proyecto POO II"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/m.noel/Desktop/Proyecto POO II/cmake-build-debug"
+CMAKE_BINARY_DIR = "/Users/m.noel/Desktop/Proyecto-POO-II/Proyecto POO II/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/m.noel/Desktop/Proyecto POO II/cmake-build-debug/CMakeFiles" "/Users/m.noel/Desktop/Proyecto POO II/cmake-build-debug/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/m.noel/Desktop/Proyecto-POO-II/Proyecto POO II/cmake-build-debug/CMakeFiles" "/Users/m.noel/Desktop/Proyecto-POO-II/Proyecto POO II/cmake-build-debug/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/m.noel/Desktop/Proyecto POO II/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/m.noel/Desktop/Proyecto-POO-II/Proyecto POO II/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target

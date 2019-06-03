@@ -3,3 +3,18 @@
 //
 
 #include "Juego.h"
+
+Juego:: Juego(){
+    turno;
+    numeroJugadores;
+}
+
+
+Juego::Juego(int turno,int numero de jugadores) {
+    this->turno = turno;
+    this->numeroJugadores=numeroJugadores;
+}
+
+void Juego ::adicionarJugador(string nombre,int color){
+
+}

@@ -1,6 +1,6 @@
-//
-// Created by Mateo Noel Rabines on 2019-05-28.
-//
+#include "Tablero.h"
+#include "Dado.h"
+#include "Jugador.h"
 
 #ifndef PROYECTO_POO_II_JUEGO_H
 #define PROYECTO_POO_II_JUEGO_H
@@ -11,6 +11,7 @@ private:
     int turno;
     int numeroJugadores;
 public:
+    Juego();
     void iniciarJuego();
     void siguienteTurno();
     void adicionarJugador(string nombre,int color);

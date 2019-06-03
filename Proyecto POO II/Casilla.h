@@ -1,6 +1,8 @@
-//
-// Created by Mateo Noel Rabines on 2019-05-28.
-//
+#include "CasillaCasa.h"
+#include "CasillaDestinoFinal.h"
+#include "CasillaInicio.h"
+#include "CasillaRecorrido.h"
+#include "CasillaZonaSegura.h"
 
 #ifndef PROYECTO_POO_II_CASILLA_H
 #define PROYECTO_POO_II_CASILLA_H

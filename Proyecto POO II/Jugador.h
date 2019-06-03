@@ -1,9 +1,12 @@
-//
-// Created by Mateo Noel Rabines on 2019-05-28.
-//
+#include "Ficha.h"
+#include "Recorrido.h"
 
 #ifndef PROYECTO_POO_II_JUGADOR_H
 #define PROYECTO_POO_II_JUGADOR_H
+
+#include <string>
+#include <iostream>
+using namespace std;
 
 
 class Jugador {
