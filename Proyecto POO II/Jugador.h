@@ -3,6 +3,9 @@
 
 #ifndef PROYECTO_POO_II_JUGADOR_H
 #define PROYECTO_POO_II_JUGADOR_H
+#include <string>
+#include <iostream>
+using namespace std;
 
 #include <string>
 #include <iostream>
@@ -14,8 +17,10 @@ private:
     string nombre;
     int color;
 public:
+    Jugador(string nombre,int color):nombre(nombre),color(color){};
     void jugar(Ficha ficha, int movimientos);
     Ficha* seleccionarFichaEnJuego();
+    ~Jugador();
 
 };
 
