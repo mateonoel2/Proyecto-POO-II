@@ -1,21 +1,52 @@
 #include "Ficha.h"
-#include "Recorrido.h"
-
-#ifndef PROYECTO_POO_II_JUGADOR_H
-#define PROYECTO_POO_II_JUGADOR_H
 #include <string>
 #include <iostream>
-using namespace std;
+#include <vector>
+#include <algorithm>
+#include <tuple>
+#include "Recorrido.h"
+#include <SFML/Graphics.hpp>
+#ifndef PROYECTO_POO_II_JUGADOR_H
+#define PROYECTO_POO_II_JUGADOR_H
 
+using namespace std;
+using par = std::pair<float, float >;
+using pares_ordenados = std::vector<par>;
 class Jugador {
 private:
-    string nombre;
-    int color;
+    int numeroJugador;
+    int puntos;
+    int movimimientos;
+    Recorrido* recorrido_jugador;
+    sf::Vector2<float>* c[4];sf::Vector2<float>* salida;
+    Ficha* ficha[4];
 public:
-    Jugador(string nombre,int color):nombre(nombre),color(color){};
-    void jugar(Ficha ficha, int movimientos);
-    Ficha* seleccionarFichaEnJuego();
-    ~Jugador();
+    Jugador(int numeroJugador);
+
+    virtual ~Jugador();
+
+    void setMovimimientos(int movimimientos);
+
+    int getNumeroJugador() const;
+
+    sf::Vector2<float> *getC(int i) const;
+
+    sf::Vector2<float> *getSalida() const;
+
+    Ficha *getFicha(int i) const;
+
+    Ficha *getFicha2(int i) const;
+
+    Ficha *getFicha3(int i) const;
+
+    Ficha *getFicha4(int i) const;
+
+    int getMovimimientos() const;
+
+    int getPuntos() const;
+
+    Recorrido *getRecorridoJugador() const;
+
 
 };
 
