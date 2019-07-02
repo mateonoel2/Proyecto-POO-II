@@ -1,8 +1,6 @@
-#include "Juego.h"
-#include <iostream>
-#include <string>
-
-int main(){
-
-    return 0;
+#include "Ludo.h"
+int main()
+{   auto Mi_Ludo= new Ludo();
+    Mi_Ludo->Run();
+    return EXIT_SUCCESS;
 }

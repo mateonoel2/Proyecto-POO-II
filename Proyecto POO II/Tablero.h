@@ -1,14 +1,16 @@
-#include "Casilla.h"
-
+#include <SFML/Graphics.hpp>
 #ifndef PROYECTO_POO_II_TABLERO_H
 #define PROYECTO_POO_II_TABLERO_H
 
 
 class Tablero {
-Casilla tablero[15][15];
-
+private:
+    sf::Texture tablero_textura;
+    sf::Sprite tablero_sprite;
 public:
-    void mostrar();
+    Tablero();
+
+    const sf::Sprite &getTableroSprite() const;
 };
 
 
